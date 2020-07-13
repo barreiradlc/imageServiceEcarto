@@ -10,7 +10,6 @@ const upload = multer(multerConfig)
 
 
 routes.post('/img', upload.single('image'), imageController.upload)
-
 routes.get('/img', imageController.test)
 
 
