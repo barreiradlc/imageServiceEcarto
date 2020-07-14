@@ -1,1 +1,1 @@
-web:ts-node/spp/src/server.ts
+web:ts-node/app/src/server.ts
