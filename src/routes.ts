@@ -21,6 +21,10 @@ console.log('n')
 routes.get('/img', imageController.test)
 console.log('o')
 
+routes.get("*",(req, res) =>{
+    res.send("<h1>Welcome to your simple server! Awesome right</h1>");
+});
+
 
 
 export default routes
